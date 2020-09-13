@@ -56,11 +56,31 @@ import numpy as np
 # arr_1 = np.array([1, 2, 3, 4, 5, 6])
 # arr_1 += 1
 # print(arr_1)
-
-# Matrices
-m_1 = np.array([[1, 2, 3],
-                [4, 5, 6],
-                [7, 8, 9]])
-print(m_1)
-print(m_1.shape)
-print(m_1[1, 2])
+#
+# # Matrices
+# m_1 = np.array([[1, 2, 3],
+#                 [4, 5, 6],
+#                 [7, 8, 9]])
+# print(m_1)
+# print(m_1.shape)
+# print(m_1[1, 2])
+#
+# # Need to use copy function to create new matrix based on another
+# m_2 = m_1.copy()
+# print(m_2)
+# n_3 = np.random.rand(10)
+# print(n_3)
+#
+# # Mathematical functions
+# print(np.sum(n_3))
+# print(np.mean(n_3))
+# print(np.std(n_3))
+# print(np.round(n_3, decimals=2))
+#
+# # Array functions
+# m_3 = np.ones(shape=(3,3))
+# print(m_3)
+# m_4 = np.zeros(shape=(3,3))
+# print(m_4)
+# m_5 = np.identity(6)
+# print(m_5)
